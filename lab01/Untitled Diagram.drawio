@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T17:13:54.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="bqG2y_lN5MjqTyTa5sV3" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T17:25:58.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LG9yW4UuD2rBR1kh7wmH" version="21.0.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1647" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,20 +10,35 @@
         <mxCell id="pr1HlgYR6mJugcmbPXzO-2" value="Adres&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pr1HlgYR6mJugcmbPXzO-3" value="Użytkownik" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="360" width="240" height="40" as="geometry" />
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-3" value="Użytkownicy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pr1HlgYR6mJugcmbPXzO-4" value="PK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="400" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pr1HlgYR6mJugcmbPXzO-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="400" width="200" height="40" as="geometry" />
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-5" value="Id int NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pr1HlgYR6mJugcmbPXzO-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="440" width="40" height="200" as="geometry" />
+          <mxGeometry x="40" y="440" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pr1HlgYR6mJugcmbPXzO-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="440" width="200" height="200" as="geometry" />
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-7" value="Imie char(30) NOT NULL&lt;br&gt;Nazwisko char(30) NOT NULL&lt;br&gt;Data urodzenia DATETIME NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-8" value="Studenci" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-9" value="Wydział varchar(50) NOT NULL&lt;br&gt;Sememstr INT NOT NULL&lt;br&gt;Rodzaj varchar(50) NOT NULL&lt;br&gt;SALDO DOUBLE NOT NULL&amp;nbsp;&lt;br&gt;ECTS INT NOT NULL&lt;br&gt;ITN varchar(200) NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-10" value="PK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-11" value="Id int NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1HlgYR6mJugcmbPXzO-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="40" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
